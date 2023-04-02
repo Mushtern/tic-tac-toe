@@ -15,14 +15,14 @@ body {
   aspect-ratio: 1/1;
   height: 70vh;
   border: 1px solid black;
-  background-color: rgb(226, 203, 167);
+  background-color: rgb(231, 214, 145);
   display: flex;
   flex-direction: column;
 }
 
 .row {
   display: flex;
-  flex: 33%;
+  flex: 33%; /*It has 33% of its parent*/
   flex-direction: row; /*Direction in which elements inside of this are ordered (left to right)*/
   
 }
@@ -37,4 +37,8 @@ body {
   font-size: 8vh;
   color: black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.square:active{ /*When we click on it*/
+   background-color: rgb(245, 218, 159);
 }
